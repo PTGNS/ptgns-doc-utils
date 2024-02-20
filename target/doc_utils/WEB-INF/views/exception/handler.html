@@ -1,0 +1,22 @@
+{% extends "base/base" %}
+
+{% block page_title %}PTGNS DOC Utils{% endblock %}
+
+{% block page_content %}
+<div class="row">
+    <div class="col-12 text-center">
+        <div class="bg-white">
+            <div class="content content-full overflow-hidden">
+                <div class="py-4">
+                    <h1 class="display-1 text-modern invisible" data-class="animated zoomInDown" data-toggle="appear">
+                        Whoops!</h1>
+                    <h2 class="h3 font-w300 text-muted invisible mb-5" data-class="animated fadeInUp"
+                        data-toggle="appear">
+                        {{error}}
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
